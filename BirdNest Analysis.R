@@ -36,7 +36,7 @@ plot(nest$Length, nest$No.eggs)
 
 boxplot(Nestling~Nesttype, data=nest)
 
-ggplot(nest, aes(Length, Nestling, colour=as.factor(Closed.)))+geom_point()
+ggplot(nest, aes(Length, Nestling, colour=as.factor(Closed.)))+geom_point(shape=1)
 
 hist(nest$No.eggs)
 
