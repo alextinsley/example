@@ -19,7 +19,7 @@ library(ggplot2)
 
 # load data and check the top 6 rows. 
 
-nest<-read.csv(here("Data", "BirdNest.csv"))
+nest<-read.csv(here( "BirdNest.csv"))
 head(nest)
 
 
